@@ -1,0 +1,47 @@
+a{
+  color: rgba(62, 161, 218, 1);
+}
+
+
+
+
+
+
+#banner {
+  /* Added a background image to the home page banner instead of using a solid color. */
+  background-image: url(../../images/home-flower-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 1px 1px 15px #333;
+  text-align: center;
+  cursor: default;
+  padding: 10em 4em 9em 4em;
+/* If you want to change the banner button color. The following two css rules use a class called "redbtn".
+You can call the class whatever you want, but in order for it to work, it needs to be
+added to the button in the index html file as well.*/
+#banner .button.redbtn {
+  background-color: rgba(36.56, 20.89, 50.46, 0.13);
+  box-shadow: none;
+}
+
+#banner .button.redbtn:hover {
+  background-color: rgba(36.56, 20.89, 50.46, 0.13);
+}
+
+
+
+/*********************************************
+ Write your css customizations below
+ *********************************************/
+ /* This is the background color for the inverted content sections */
+ .post.style1.invert .content{
+   /* background: rgba(62, 161, 218, 1); */
+   background: rgba(0, 63, 98, 1);
+ }
+ /* This is the text color for "post style 1" content sections */
+.post.style1 a{
+    /* color: rgba(62, 161, 218, 1); */
+    color: rgba(0, 63, 98, 1);
+}
