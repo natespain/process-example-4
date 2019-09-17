@@ -1,2 +1,2 @@
 # process-example-4
-The Bloom Prject process website by Maggie Hance
+The Bloom Project process website by Maggie Hance
